@@ -1,5 +1,4 @@
 package main
-
 import "fmt"
 
 func main() {
@@ -14,5 +13,4 @@ func main() {
 	var b bool = false
 	result := 7 > 45
 	fmt.Println(!(b || result))
-
 }
