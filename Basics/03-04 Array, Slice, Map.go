@@ -11,4 +11,12 @@ func main() {
 			my_map[i+1] = el   
 	}
 	fmt.Println(my_map)
+
+	// func make to create maps and arrays. 
+	arr := [10]string{"a", "b", "c"}
+	hashmap := make(map[string]int)
+	my_slice := arr[:5]
+	fmt.Println(len(my_slice))
+	fmt.Println(cap(my_slice))
+	fmt.Println(len(hashmap))
 }
