@@ -31,6 +31,13 @@ func main() {
 
 	fmt.Println(arr2)
 	fmt.Println(slice2)
+
+	// append
+	arr := [5]int{10, 20, 90, 70, 60}
+	slice := arr[:3]
+	fmt.Println(cap(slice))
+	new_slice := append(slice, 100, 200)
+	fmt.Println(cap(new_slice))
 }
 
-// https://gosamples.dev/capacity-and-length/
+// Capacity and length of a slice in Go https://gosamples.dev/capacity-and-length/
