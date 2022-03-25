@@ -33,6 +33,7 @@ func connect() *gorm.DB {
 	// if the door opens:
 	log.Print("The door opened. You are welcome to your own DB!")
 
+	// Create tables in the Postgres DB system.
 	db.AutoMigrate(
 		&UserModel.User{},
 		&UserModel.Band{},
